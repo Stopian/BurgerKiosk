@@ -15,6 +15,9 @@ namespace BurgerKiosk
         public Form1()
         {
             InitializeComponent();
+            rdoHamBurger.Checked = false;
+            rdoBulgogiBurger.Checked = false;
+            rdoChickenBurger.Checked = false;
         }
 
         private async void btnOrder_Click(object sender, EventArgs e)
