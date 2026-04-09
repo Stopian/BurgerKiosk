@@ -65,7 +65,7 @@ namespace BurgerKiosk
                 totalCost += SauceCost;
                 lstOrder.Items.Add($"{chkSauce.Text} {SauceCost:N0}원");
             }
-            
+            lblTotalCost.Text = $"총 금액 : {totalCost:N0}원";
             lblError.Visible = false;
         }
 
